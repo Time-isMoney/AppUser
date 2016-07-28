@@ -19,3 +19,6 @@ application.config.php
         
         #'UserProfile',
         #'UserProfileMod',
+
+mail.config.global.php
+  для регистрации нужно заполнить куда будет отправляться почта SMPT
