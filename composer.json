@@ -31,10 +31,12 @@
   
   "autoload": {
     "psr-0": {
+      "AppLocalization": "src/",
       "Hybrid": "vendor/hybridauth/hybridauth/hybridauth/"
     },
     "classmap": [
-      "./vendor/hybridauth/hybridauth/additional-providers"
+      "./vendor/hybridauth/hybridauth/additional-providers",
+      "./Module.php"
     ]
   }
 }
