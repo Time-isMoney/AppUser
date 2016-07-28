@@ -24,7 +24,7 @@
     
   },
   "require-dev": {
-     "goalio/goalio-forgotpassword": "dev-feature-email-format-option ",
+     "goalio/goalio-forgotpassword": "dev-feature-email-format-option "
   },
   
   "license": "BSD-3-Clause",
