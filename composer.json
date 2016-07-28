@@ -16,7 +16,7 @@
       "hrevert/ht-user-registration": "0.0.*",
       "goalio/goalio-rememberme": "1.0.*",
       "ksdevelopment/goalio-forgot-password": "dev-feature-email-format-option"
-      //"goalio/goalio-forgotpassword": "1.*"
+     
     
   },
   "license": "BSD-3-Clause",
