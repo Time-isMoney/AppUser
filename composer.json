@@ -1,7 +1,7 @@
 {
   "name": "voodoo773/app-user",
   "description": "User Module with Email and Social registration for ZF2",
-  "type": "package",
+  "type": "library",
   "version" : "0.0.1",
   "homepage": "https://github.com/Voodoo773/AppUser",
   "minimum-stability": "dev",
