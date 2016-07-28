@@ -3,7 +3,6 @@
   "description": "User Module with Email and Social registration for ZF2",
   "type": "library",
   "version" : "0.0.1",
-  "minimum-stability" : "dev",
   "homepage": "https://github.com/Voodoo773/AppUser",
   "require": {
       "php": ">=5.5",
@@ -12,9 +11,7 @@
       "socalnick/scn-social-auth": "1.19.*",
       "hrevert/ht-user-registration": "0.0.*",
       "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option ",
-      "goalio/goalio-rememberme": "1.0.1"
-      
-    
+      "goalio/goalio-rememberme": "1.0.*"
   },
   
   "license": "BSD-3-Clause",
