@@ -1,0 +1,34 @@
+{
+  "name": "zendframework/skeleton-application",
+  "description": "Skeleton Application for ZF2",
+
+  "repositories": [
+  	{
+	 "type": "vcs",
+     "url": "https://github.com/Voodoo773/GoalioForgotPassword"
+  	}
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zendframework": "2.4.*",
+    "zendframework/zend-i18n-resources": "dev-master",
+    "socalnick/scn-social-auth": "1.19.*",
+    "hrevert/ht-user-registration": "dev-master",
+    "goalio/goalio-forgotpassword": "dev-feature-email-format-option",
+    "goalio/goalio-rememberme": "1.0.1"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "framework",
+    "zf2"
+  ],
+  "homepage": "https://github.com/Voodoo773",
+  "autoload": {
+    "psr-0": {
+      "Hybrid": "vendor/hybridauth/hybridauth/hybridauth/"
+    },
+    "classmap": [
+      "./vendor/hybridauth/hybridauth/additional-providers"
+    ]
+  }
+}
