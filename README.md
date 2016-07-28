@@ -1,7 +1,9 @@
 application.config.php
-  /SncSocial 1st before 2th ZfcBase, 3th ZfcUser
+        Application
+        ApplicationMod
+        SncSocial 1st before 2th ZfcBase, 3th ZfcUser
         'ScnSocialAuth',
-         #'ScnSocialAuthMod',
+    [2] 'ScnSocialAuthMod',
         
         'ZfcBase',
         'ZfcBaseMod',//add myFunc
@@ -13,7 +15,7 @@ application.config.php
         'GoalioForgotPassword',//ZfcUser +forgot password
         'MtMail',
         'HtUserRegistration',//ZfcUser RG by Email
-        #'ZfcUserMod',//ZfcUser + ALL NEW VIEW
+    [1] 'ZfcUserMod',//ZfcUser + ALL NEW VIEW
         'BjyAuthorize',
         #'BjyAuthorizeMod',
         
@@ -22,3 +24,7 @@ application.config.php
 
 mail.config.global.php
   для регистрации нужно заполнить куда будет отправляться почта SMPT
+  
+запуск модулей
+  'ScnSocialAuth',
+  'ScnSocialAuthMod',
