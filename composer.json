@@ -1,6 +1,9 @@
 {
   "name": "voodoo773/app-user",
   "description": "User Module with Email and Social registration for ZF2",
+  "type": "library",
+  "version" : "0.0.1",
+  "homepage": "https://github.com/Voodoo773/AppUser",
 
   "repositories": [
   	{
@@ -25,7 +28,7 @@
     "framework",
     "zf2"
   ],
-  "homepage": "https://github.com/Voodoo773",
+  
   "autoload": {
     "psr-0": {
       "Hybrid": "vendor/hybridauth/hybridauth/hybridauth/"
