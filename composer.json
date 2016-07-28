@@ -1,11 +1,11 @@
 {
-  "name": "zendframework/skeleton-application",
-  "description": "Skeleton Application for ZF2",
+  "name": "voodoo773/app-user",
+  "description": "User Module with Email and Social registration for ZF2",
 
   "repositories": [
   	{
-	 "type": "vcs",
-     "url": "https://github.com/Voodoo773/GoalioForgotPassword"
+	"type": "vcs",
+     	"url": "https://github.com/Voodoo773/GoalioForgotPassword"
   	}
   ],
   "require": {
