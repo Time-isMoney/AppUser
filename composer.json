@@ -25,7 +25,7 @@
   
   "autoload": {
     "psr-0": {
-      "AppUser": "src/"
+      "AppUser": "src/",
       "Hybrid": "./vendor/hybridauth/hybridauth/hybridauth/"
     },
     "classmap": [
