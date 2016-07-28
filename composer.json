@@ -12,7 +12,7 @@
       "zf-commons/zfc-base": "v0.1.*",
       "socalnick/scn-social-auth": "1.19.*",
       "hrevert/ht-user-registration": "0.0.*",
-      "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option@dev",
+      "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option ",
       "goalio/goalio-rememberme": "1.0.1"
       
     
