@@ -15,7 +15,7 @@
   "require": {
       "php": ">=5.5",
       "zendframework/zendframework": "2.4.*",
-      "zf-commons/zfc-base": "v0.1.2",
+      "zf-commons/zfc-base": "v0.1.*",
       "socalnick/scn-social-auth": "1.19.*",
       "hrevert/ht-user-registration": "0.0.*",
       "goalio/goalio-rememberme": "1.0.*",
