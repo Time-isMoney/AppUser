@@ -14,12 +14,11 @@
       "zendframework/zendframework": "2.4.*",
       "socalnick/scn-social-auth": "1.19.*",
       "hrevert/ht-user-registration": "0.0.*",
-      "goalio/goalio-rememberme": "1.0.*"
+      "goalio/goalio-rememberme": "1.0.*",
+      "ksdevelopment/goalio-forgot-password": "dev-feature-email-format-option"
+      //"goalio/goalio-forgotpassword": "1.*"
     
   },
-  "require-dev": {
-        "goalio/goalio-forgotpassword": "dev-feature-email-format-option"
-    },
   "license": "BSD-3-Clause",
   "keywords": [
     "framework",
