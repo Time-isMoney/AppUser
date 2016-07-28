@@ -4,17 +4,19 @@
 
   "repositories": [
   	{
-	"type": "vcs",
-     	"url": "https://github.com/Voodoo773/GoalioForgotPassword"
-  	}
+      "type": "vcs",
+      "url": "https://github.com/ksdevelopment/GoalioForgotPassword"
+    }
+    
   ],
   "require": {
     "php": ">=5.5",
     "zendframework/zendframework": "2.4.*",
     "socalnick/scn-social-auth": "1.19.*",
     "hrevert/ht-user-registration": "0.0.*",
-    "voodoo773/goalio-forgotpassword": "dev-feature-email-format-option",
+    "goalio/goalio-forgotpassword": "dev-feature-email-format-option ",
     "goalio/goalio-rememberme": "1.0.*"
+    
   },
   "license": "BSD-3-Clause",
   "keywords": [
