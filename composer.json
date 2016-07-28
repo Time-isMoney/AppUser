@@ -4,7 +4,6 @@
   "type": "library",
   "version" : "0.0.1",
   "minimum-stability" : "dev",
-  "prefer-stable" : true,
   "homepage": "https://github.com/Voodoo773/AppUser",
   "require": {
       "php": ">=5.5",
