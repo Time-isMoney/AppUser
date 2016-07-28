@@ -35,11 +35,10 @@
   
   "autoload": {
     "psr-0": {
-      "AppUser": "src/",
-      "Hybrid": "vendor/hybridauth/hybridauth/hybridauth/"
+      "AppUser": "src/"
+      
     },
     "classmap": [
-      "./vendor/hybridauth/hybridauth/additional-providers",
       "./Module.php"
     ]
   }
