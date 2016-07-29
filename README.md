@@ -1,30 +1,37 @@
 application.config.php
+//1
         Application
         ApplicationMod
-        SncSocial 1st before 2th ZfcBase, 3th ZfcUser
+
+//2
         'ScnSocialAuth',
-    [2] 'ScnSocialAuthMod',
-        
+        'ScnSocialAuthMod',
+//3        
         'ZfcBase',
-        'ZfcBaseMod',//add myFunc
+        'ZfcBaseMod',
         #'Voodoo773Localization',
-        
+
+//4        
         'ZfcUser',
         'GoalioRememberMe',//ZfcUser +remember_me
         'GoalioMailService',
         'GoalioForgotPassword',//ZfcUser +forgot password
         'MtMail',
         'HtUserRegistration',//ZfcUser RG by Email
-    [1] 'ZfcUserMod',//ZfcUser + ALL NEW VIEW
+//5 все изменения и слушатели
+        'ZfcUserMod',
+//6        
         'BjyAuthorize',
-        #'BjyAuthorizeMod',
-        
+        'BjyAuthorizeMod',
+//7
         #'UserProfile',
         #'UserProfileMod',
 
+db.global.php
+  база + zfcuser_zend_db_adapter (ZfcUser)
+  
 mail.config.global.php
   для регистрации нужно заполнить куда будет отправляться почта SMPT
-  
-запуск модулей
-  'ScnSocialAuth',
-  'ScnSocialAuthMod',
+ 
+scn-social-auth.global.php
+  ключи и настройка в Dev соц сети и доступы в FB
