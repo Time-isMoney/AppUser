@@ -1,8 +1,4 @@
-BjyAuthorizeMod
-ScnSocialAuthMod
-UserProfileMod
-ZfcBaseMod
-ZfcUserMod<?php
+<?php
 /**
  * ZfcUser Configuration
  *
