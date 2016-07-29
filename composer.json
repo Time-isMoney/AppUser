@@ -11,6 +11,7 @@
       "socalnick/scn-social-auth": "1.19.*",
       "hrevert/ht-user-registration": "0.0.*",
       "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option ",
+      "voodoo773/zfc-base-mod" : "dev-master",
       "goalio/goalio-rememberme": "1.0.*",
       "bjyoungblood/bjy-authorize": "1.4.*"
   },
