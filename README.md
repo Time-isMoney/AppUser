@@ -1,29 +1,33 @@
 application.config.php
-//1
+#1
         Application
         ApplicationMod
 
-//2
+#2
         'ScnSocialAuth',
         'ScnSocialAuthMod',
-//3        
+        
+#3        
         'ZfcBase',
         'ZfcBaseMod',
         #'Voodoo773Localization',
 
-//4        
+#4        
         'ZfcUser',
         'GoalioRememberMe',//ZfcUser +remember_me
         'GoalioMailService',
         'GoalioForgotPassword',//ZfcUser +forgot password
         'MtMail',
         'HtUserRegistration',//ZfcUser RG by Email
-//5 все изменения и слушатели
+        
+#5 все изменения и слушатели
         'ZfcUserMod',
-//6        
+        
+#6        
         'BjyAuthorize',
         'BjyAuthorizeMod',
-//7
+        
+#7
         #'UserProfile',
         #'UserProfileMod',
 
