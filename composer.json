@@ -7,11 +7,11 @@
   "homepage": "https://github.com/Voodoo773/AppUser",
   "require": {
       "php": ">=5.5",
-      "zendframework/zendframework": "2.4.*",
+      "zendframework/zendframework": "*",
       "zf-commons/zfc-base": "*",
       "socalnick/scn-social-auth": "*",
       "hrevert/ht-user-registration": "*",
-      "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option",
+      "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option ",
       "voodoo773/zfc-base-mod" : "dev-master",
       "goalio/goalio-rememberme": "*",
       "bjyoungblood/bjy-authorize": "*"
