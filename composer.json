@@ -9,7 +9,7 @@
       "php": ">=5.5",
       "zendframework/zendframework": "*",
       "zf-commons/zfc-base": "*",
-      "socalnick/scn-social-auth": "*",
+    
       "hrevert/ht-user-registration": "*",
       "voodoo773/goalio-forgotpassword" : "dev-feature-email-format-option ",
       "voodoo773/zfc-base-mod" : "dev-master",
